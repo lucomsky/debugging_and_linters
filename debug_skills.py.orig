@@ -1,6 +1,8 @@
 import requests
 import parse
 
+token: bytes = '12345pass'
+
 NAMES = [
     'John Smyth',
     'Michael Craig',
