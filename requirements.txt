@@ -86,6 +86,10 @@ toml==0.10.2
     #   pre-commit
 tomli==2.0.1
     # via black
+types-requests==2.27.30
+    # via -r requirements.in
+types-urllib3==1.26.15
+    # via types-requests
 typing-extensions==4.2.0
     # via
     #   black
