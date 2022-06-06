@@ -8,6 +8,8 @@ asttokens==2.0.5
     # via icecream
 autopep8==1.6.0
     # via -r requirements.in
+bandit==1.7.1
+    # via -r requirements.in
 black==22.3.0
     # via -r requirements.in
 certifi==2022.5.18.1
@@ -30,6 +32,10 @@ executing==0.8.3
     # via icecream
 filelock==3.7.1
     # via virtualenv
+gitdb==4.0.9
+    # via gitpython
+gitpython==3.1.27
+    # via bandit
 icecream==2.1.2
     # via -r requirements.in
 identify==2.5.1
@@ -52,6 +58,8 @@ parse==1.8.2
     # via -r requirements.in
 pathspec==0.9.0
     # via black
+pbr==5.9.0
+    # via stevedore
 platformdirs==2.5.2
     # via
     #   black
@@ -66,6 +74,7 @@ pyparsing==3.0.9
     # via packaging
 pyyaml==6.0
     # via
+    #   bandit
     #   dparse
     #   pre-commit
 requests==2.18.3
@@ -78,6 +87,10 @@ six==1.16.0
     # via
     #   asttokens
     #   virtualenv
+smmap==5.0.0
+    # via gitdb
+stevedore==3.5.0
+    # via bandit
 toml==0.10.2
     # via
     #   autopep8
